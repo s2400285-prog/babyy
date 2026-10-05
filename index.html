@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tomorrow With You ♡</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="hearts"></div>
+
+    <div class="music-control">
+      <button id="musicBtn">♪</button>
+      <audio id="music" loop>
+        <source src="music.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+
+    <main>
+      <section class="hero">
+        <div class="ticket">
+          <span>DATE TICKET</span>
+          <div class="ticket-icon">♡</div>
+          <h1>Tomorrow,<br />Just You & Me</h1>
+          <p>Ayala • 4:00 PM</p>
+          <div class="ticket-line"></div>
+          <small>One little date. One very special girl.</small>
+        </div>
+
+        <div class="scroll">scroll down ↓</div>
+      </section>
+
+      <section class="countdown-section">
+        <p class="mini-title">THE DAY I'VE BEEN WAITING FOR</p>
+        <h2>Our Date Is Almost Here ♡</h2>
+
+        <div id="countdown">
+          <div><span id="days">00</span><small>Days</small></div>
+          <div><span id="hours">00</span><small>Hours</small></div>
+          <div><span id="minutes">00</span><small>Minutes</small></div>
+          <div><span id="seconds">00</span><small>Seconds</small></div>
+        </div>
+      </section>
+
+      <section class="timeline">
+        <p class="mini-title">OUR LITTLE PLAN</p>
+        <h2>Tomorrow's Story</h2>
+
+        <div class="timeline-card">
+          <div class="time">04:00 PM</div>
+          <div class="timeline-icon">📍</div>
+          <div>
+            <h3>Meet Me at Ayala</h3>
+            <p>
+              The most important part isn't the place. It's getting to spend
+              time with you.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-card">
+          <div class="time">MOVIE TIME</div>
+          <div class="timeline-icon">🎬</div>
+          <div>
+            <h3>Forgotten Island</h3>
+            <p>
+              We'll watch the movie together. And yes, I might secretly look at
+              you more than the screen.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-card">
+          <div class="time">AFTER MOVIE</div>
+          <div class="timeline-icon">🍽️</div>
+          <div>
+            <h3>Dinner With You</h3>
+            <p>
+              We don't have to decide the place yet. Wherever we end up, I'll be
+              happy because I'll be with you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="letter-section">
+        <div class="envelope">💌</div>
+        <p class="mini-title">A LETTER FOR YOU</p>
+        <h2>Dear Julie,</h2>
+
+        <div class="letter">
+          <p>
+            Tomorrow is finally happening, and honestly, I'm really excited. Not
+            just because we're going to watch a movie or have dinner, but
+            because I get to spend a few hours with someone who has become very
+            special to me.
+          </p>
+
+          <p>
+            I know this is just a date, but for me, it means more than that.
+            It's another chance to know you better, to hear your stories, to see
+            your smile, to make you laugh, and simply enjoy being beside you.
+          </p>
+
+          <p>
+            I don't want tomorrow to feel like something we have to make
+            perfect. I just want it to be comfortable, genuine, and happy. If we
+            laugh at random things, get shy, become quiet for a while, or don't
+            know what to say, that's okay. I just want us to enjoy the moment.
+          </p>
+
+          <p>
+            And if I'm being honest, there might be moments tomorrow when I get
+            nervous. I might not know exactly what to say, or I might act a
+            little awkward. But behind all of that is a simple truth:
+            <strong>I really like you.</strong>
+          </p>
+
+          <p>
+            I'm not rushing anything. I want to take my time getting to know
+            you, understanding you, supporting you, and showing you through my
+            actions how much I appreciate you.
+          </p>
+
+          <p>
+            I hope tomorrow becomes one of those little memories that we can
+            look back on someday and smile about. Maybe we'll remember the
+            movie, the food, the conversations, or even the little awkward
+            moments.
+          </p>
+
+          <p>
+            Whatever happens tomorrow, thank you for saying yes to spending your
+            time with me. Your time is something I genuinely appreciate, and
+            I'll do my best to make our date a beautiful memory.
+          </p>
+
+          <p class="ending">
+            So tomorrow, let's forget about everything else for a while. Let's
+            just enjoy the moment.
+            <br /><br />
+            <strong>See you at 4, Julie. ♡</strong>
+          </p>
+        </div>
+      </section>
+
+      <section class="verse-section">
+        <div class="bible-card">
+          <div class="cross">✝</div>
+          <h2>A Little Reminder</h2>
+
+          <p class="verse">
+            “Above all, keep loving each other deeply, because love covers over
+            a multitude of sins.”
+          </p>
+
+          <span class="reference">1 Peter 4:8</span>
+
+          <p class="verse-note">
+            I hope whatever happens between us, we always choose kindness,
+            patience, honesty, and genuine love.
+          </p>
+        </div>
+      </section>
+
+      <section class="questions">
+        <p class="mini-title">BEFORE YOU GO...</p>
+        <h2>I Have Some Questions ♡</h2>
+        <p class="question-intro">
+          You don't have to answer everything seriously. Just tap a button and
+          see what happens.
+        </p>
+
+        <div class="question-grid">
+          <button class="question-btn" onclick="answer('like')">
+            <span>01</span>
+            Do you like me? 👀
+          </button>
+
+          <button class="question-btn" onclick="answer('baby')">
+            <span>02</span>
+            Is it okay to call you baby? 🥺
+          </button>
+
+          <button class="question-btn" onclick="answer('date')">
+            <span>03</span>
+            Are you excited for tomorrow? 💗
+          </button>
+
+          <button class="question-btn" onclick="answer('hug')">
+            <span>04</span>
+            Can I ask for a hug? 🤍
+          </button>
+
+          <button class="question-btn" onclick="answer('picture')">
+            <span>05</span>
+            Can we take a picture together? 📸
+          </button>
+
+          <button class="question-btn" onclick="answer('again')">
+            <span>06</span>
+            Can we do this again? 🌷
+          </button>
+        </div>
+
+        <div id="answerBox" class="answer-box">
+          <span id="answerEmoji">♡</span>
+          <p id="answerText">Choose a question...</p>
+        </div>
+      </section>
+
+      <section class="final-section">
+        <div class="final-heart">♡</div>
+
+        <h2>One Last Thing...</h2>
+
+        <p>
+          I don't know exactly where this story will take us, but I know that I
+          want to keep getting to know you.
+        </p>
+
+        <p>
+          Tomorrow isn't about having the perfect date. It's about making a real
+          memory with you.
+        </p>
+
+        <button class="love-button" onclick="showFinal()">
+          Open My Final Message 💌
+        </button>
+
+        <div id="finalMessage" class="final-message">
+          <h3>Julie,</h3>
+          <p>
+            Thank you for giving me the chance to spend tomorrow with you. I
+            hope you feel comfortable, appreciated, and happy.
+          </p>
+          <p>
+            No pressure. No expectations. Just me, being genuinely happy that I
+            get to be with you.
+          </p>
+          <p class="big-love">See you tomorrow. ♡</p>
+        </div>
+
+        <div class="signature">
+          — from someone who's really happy to have you in his life ♡
+        </div>
+      </section>
+    </main>
+
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <button class="close" onclick="closePopup()">×</button>
+        <div id="popupEmoji">♡</div>
+        <h3 id="popupTitle">Question</h3>
+        <p id="popupText"></p>
+        <button class="okay-btn" onclick="closePopup()">Okay ♡</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
